@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT-мисливці 💻</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quiz">
+    <header>
+      <h1>💜 IT-мисливці</h1>
+      <p>Обери правильну картинку!</p>
+    </header>
+
+    <div class="info">
+      <span id="number">Раунд 1 із 6</span>
+      <span id="score">⭐ 0 балів</span>
+    </div>
+
+    <div class="progress">
+      <div id="progress-bar"></div>
+    </div>
+
+    <section id="game">
+      <h2 id="question"></h2>
+      <div id="answers" class="answers"></div>
+      <p id="feedback" aria-live="polite"></p>
+      <button id="next" hidden>Наступне запитання ➜</button>
+    </section>
+
+    <section id="result" hidden>
+      <div class="trophy">🏆</div>
+      <h2>Квіз завершено!</h2>
+      <p id="final-score"></p>
+      <p id="message"></p>
+      <button id="restart">🔄 Грати знову</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
